@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hiking Help - Reviews</title>
+  </head>
+  <body>
+    <div id="content">
+      <header>
+        <div class="logo-box">
+          <img
+            src="https://cdn.glitch.me/3dd202ea-3a07-4984-9474-0b4dc7db8e46%2Frsz_hiking_help-logos.jpg?v=1637340025632"
+            alt="Hiking Help Logo"
+          />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="reviews-grid">
+          <img
+            class="reviews-img-left"
+            src="https://cdn.glitch.me/3dd202ea-3a07-4984-9474-0b4dc7db8e46%2Fshare-your-wisdom.jpg?v=1636246670817"
+            alt="Share your wisdom"
+          />
+          <section class="reviews-paragraph-1">
+            <h1>Let's hear from you!</h1>
+            <p>
+              Share your experiences on the trails you have hiked. Which trail
+              is your favorite? How was the trail conditions? What is your
+              favorite equipment you use? We love to hear about your best and
+              worst experiences. There is always something that we can all learn
+              from everyones experiences. Please share.
+            </p>
+          </section>
+        </div>
+      </main>
+
+      <form action="/form-page" method="post">
+        <div class="form-grid">
+          <img
+            class="form-img-right"
+            src="https://cdn.glitch.me/3dd202ea-3a07-4984-9474-0b4dc7db8e46%2Fcontact-us.jpg?v=1636246609585"
+            alt="Contact Us"
+          />
+
+          <div class="form-container">
+            <ul>
+              <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="user_email" />
+              </li>
+              <li>
+                <label for="category">Category:</label>
+                <select id="category" name="user_category">
+                  <option value="trail-reviews">Trail Reviews</option>
+                  <option value="gear-reviews">Gear Reviews</option>
+                  <option value="share-experiences"></option>
+                    Share Your Experiences
+                  </option>
+                </select>
+              </li>
+              <li>
+                <label for="msg">Share your message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+              <li class="button">
+                <button type="submit">Send your message</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </form>
+      <footer>
+        <div class="copyright">
+          <p>&copy; 2021 - Daniel Harris - WDD130-13</p>
+          <a href="site-plan.html">Site plan</a>
+        </div>
+        <div class="social">
+          <a href="https://www.instagram.com" target="_blank"
+            ><img
+              src="https://cdn.glitch.me/3dd202ea-3a07-4984-9474-0b4dc7db8e46%2Finstagram.png?v=1637341011717"
+              alt="Instagram logo"
+          /></a>
+          <a href="https://www.pinterest.com" target="_blank"
+            ><img
+              src="https://cdn.glitch.me/3dd202ea-3a07-4984-9474-0b4dc7db8e46%2Fpinterest.png?v=1637341015952"
+              alt="Pinterest logo"
+          /></a>
+          <a href="https://www.youtube.com" target="_blank"
+            ><img
+              src="https://cdn.glitch.me/3dd202ea-3a07-4984-9474-0b4dc7db8e46%2Fyoutube.png?v=1637341020016"
+              alt="YouTube logo"
+          /></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

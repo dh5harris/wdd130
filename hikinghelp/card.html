@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: arial;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      .card {
+        width: 320px;
+        background-color: white;
+        border-radius: 3px;
+        box-shadow: 1px 1px 4px 1px #888;
+        overflow: hidden;
+        line-height: 1.5em;
+      }
+
+      p {
+        margin: 5px;
+        padding: 5px;
+      }
+
+      footer {
+        display: grid;
+        grid-template-columns: 50px 50px 1fr;
+        align-content: center;
+        color: #888;
+        padding: 5px;
+        margin: 5px;
+      }
+
+      .viewButton .editButton {
+        grid-template-columns: 1;
+      }
+
+      .editButton {
+        margin-left: -3px;
+        border-radius: 0px 5px 5px 0px;
+      }
+
+      .viewButton {
+        border-radius: 5px 0px 0px 5px;
+      }
+
+      button {
+        padding: 5px;
+        color: #888;
+        background-color: white;
+        border: 2px solid #888;
+      }
+
+      span {
+        grid-column: -1;
+        text-align: center;
+        padding: 10px;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <article class="card">
+      <img src="https://picsum.photos/320/240" />
+      <p>
+        This is a wider card with supporting text below as a natural lead-in to
+        additional content. This content is a liitle bit longer.
+      </p>
+
+      <footer>
+        <button class="viewButton">View</button>
+        <button class="editButton">Edit</button>
+        <span>9 mins</span>
+      </footer>
+    </article>
+  </body>
+</html>
