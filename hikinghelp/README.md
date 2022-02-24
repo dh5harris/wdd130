@@ -1,5 +1,7 @@
 # Person Site Project
 
+This project is for WDD-130 class at BYU-Idaho
+
 Use this as a starting point for your Personal site.
 
 Use the site-plan.html to complete the planning for the site.
