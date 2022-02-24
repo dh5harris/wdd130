@@ -1,0 +1,53 @@
+body {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: "Work Sans", sans-serif;
+  margin-top: 10px;
+}
+
+header {
+  align-items: center;
+  grid-template-columns: 1fr 2fr;
+  display: grid;
+  grid-gap: 1em;
+  padding: 10px;
+}
+
+footer {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-gap: 1em;
+}
+
+header,
+footer {
+  background-color: rgb(26, 67, 171);
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+}
+
+h2 {
+  padding-left: 10px;
+}
+
+h1 {
+  font-family: Merriweather, serif;
+  letter-spacing: 2px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+p {
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 450px) {
+  header,
+  footer {
+    display: block;
+  }
+}
