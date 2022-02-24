@@ -1,6 +1,6 @@
 # Person Site Project
 
-This project is for WDD-130 class at BYU-Idaho
+This project is the capstone project for WDD-130 class at BYU-Idaho
 
 Use this as a starting point for your Personal site.
 
